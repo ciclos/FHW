@@ -301,10 +301,10 @@ evaluación<y:LabelModel>
       <data key="d4"><![CDATA[UD2/sistemasNumeracion.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="376.8055585854429" y="459.2752017296476"/>
+          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="376.8055585854429" y="477.3177637122577"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="164.7958984375" x="33.83921680518205" y="0.8577769071256967">Instalación de SSOO y software<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="105.97265625" x="63.25083789893205" y="0.8577769071256967">Sistemas operativos<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -316,7 +316,7 @@ evaluación<y:LabelModel>
       </data>
     </node>
     <node id="n17">
-      <data key="d4"><![CDATA[UD2/ejercicios2.svg]]></data>
+      <data key="d4"><![CDATA[UD3/ejercicios.svg]]></data>
       <data key="d6">
         <y:ImageNode>
           <y:Geometry height="28.02051282051282" width="27.877551020408163" x="627.5207736421055" y="459.2752017296476"/>
@@ -335,6 +335,24 @@ evaluación<y:LabelModel>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="58.7900390625" x="87.45993902709392" y="0.8577769071256967">Disco duro<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n19">
+      <data key="d4"><![CDATA[UD3/maquinasVirtuales.svg]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="376.8055585854429" y="459.9615848980063"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.2509765625" x="65.61167774268205" y="0.8577769071256967">Maquinas virtuales<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
