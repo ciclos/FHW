@@ -231,17 +231,17 @@
       </a>
     </g>
     <g id="y.node.16">
-      <a xlink:href="UD2/sistemasNumeracion.svg">
+      <a xlink:href="UD3/estructuraSoftware.svg">
         <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke="white">
-          <rect x="376.8056" y="477.3178" width="232.4743" rx="4" ry="4" height="17.3562" stroke="none"/>
+          <rect x="376.8056" y="459.9616" width="232.4743" rx="4" ry="4" height="17.3562" stroke="none"/>
         </g>
         <g>
           <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,5,-33)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-            <text x="442.0564" xml:space="preserve" y="489.4578" stroke="none">Sistemas operativos</text>
+            <text x="432.823" xml:space="preserve" y="472.1016" stroke="none">Estructura del software</text>
           </g>
         </g>
         <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke-linecap="butt">
-          <rect x="376.8056" y="477.3178" fill="none" width="232.4743" rx="4" ry="4" height="17.3562"/>
+          <rect x="376.8056" y="459.9616" fill="none" width="232.4743" rx="4" ry="4" height="17.3562"/>
         </g>
       </a>
     </g>
@@ -269,15 +269,60 @@
     <g id="y.node.19">
       <a xlink:href="UD3/maquinasVirtuales.svg">
         <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke="white">
-          <rect x="376.8056" y="459.9616" width="232.4743" rx="4" ry="4" height="17.3562" stroke="none"/>
+          <rect x="376.8056" y="529.3863" width="232.4743" rx="4" ry="4" height="17.3562" stroke="none"/>
         </g>
         <g>
           <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,5,-33)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-            <text x="444.4172" xml:space="preserve" y="472.1016" stroke="none">Maquinas virtuales</text>
+            <text x="444.4172" xml:space="preserve" y="541.5263" stroke="none">Maquinas virtuales</text>
           </g>
         </g>
         <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke-linecap="butt">
-          <rect x="376.8056" y="459.9616" fill="none" width="232.4743" rx="4" ry="4" height="17.3562"/>
+          <rect x="376.8056" y="529.3863" fill="none" width="232.4743" rx="4" ry="4" height="17.3562"/>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.20">
+      <a xlink:href="UD3/historiaWindows.pdf">
+        <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke="white">
+          <rect x="376.1878" y="477.3178" width="233.7099" rx="4" ry="4" height="17.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,5,-33)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+            <text x="448.7825" xml:space="preserve" y="489.4578" stroke="none">Historia windows</text>
+          </g>
+        </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke-linecap="butt">
+          <rect x="376.1878" y="477.3178" fill="none" width="233.7099" rx="4" ry="4" height="17.3562"/>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.21">
+      <a xlink:href="UD3/historiaLinux.pdf">
+        <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke="white">
+          <rect x="376.1878" y="494.6739" width="233.7099" rx="4" ry="4" height="17.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,5,-33)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+            <text x="458.4797" xml:space="preserve" y="506.8139" stroke="none">Historia linux</text>
+          </g>
+        </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke-linecap="butt">
+          <rect x="376.1878" y="494.6739" fill="none" width="233.7099" rx="4" ry="4" height="17.3562"/>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.22">
+      <a xlink:href="UD3/licencias.pdf">
+        <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke="white">
+          <rect x="376.1878" y="512.0301" width="233.7099" rx="4" ry="4" height="17.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,5,-33)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+            <text x="469.1975" xml:space="preserve" y="524.1701" stroke="none">Licencias</text>
+          </g>
+        </g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,5,-33)" stroke-linecap="butt">
+          <rect x="376.1878" y="512.0301" fill="none" width="233.7099" rx="4" ry="4" height="17.3562"/>
         </g>
       </a>
     </g>
