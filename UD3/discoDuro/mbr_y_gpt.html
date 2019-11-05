@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>MBR y GPT | Hardware </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Diego Cordoba Aguirre" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-8"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Hardware</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Disco duro (HDD)</a></li>
+   <li><a href="estructura_lgica.html" class="no-ch">Estructura lógica</a></li>
+   <li><a href="componentes_fsicos.html" class="no-ch">Componentes físicos</a></li>
+   <li><a href="caractersticas.html" class="no-ch">Características</a></li>
+   <li><a href="smart.html" class="no-ch">S.M.A.R.T.</a></li>
+   <li><a href="disco_de_estado_solido__ssd_.html" class="no-ch">Disco de estado solido ( SSD )</a></li>
+   <li id="active"><a href="mbr_y_gpt.html" class="active no-ch">MBR y GPT</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="disco_de_estado_solido__ssd_.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">MBR y GPT</h1></header>
+<article class="iDevice_wrapper FreeTextIdevice" id="id31">
+<div class="iDevice emphasis0">
+<div id="ta31_85" class="block iDevice_content">
+<p style="text-align: justify;"><span style="font-size: 18pt;">MBR</span></p>
+<p style="text-align: justify;"><span><img src="https://www.softzone.es/app/uploads/2016/03/Comparativa-MBR-GPT.gif" alt="Comparativa particiones MBR GPT" style="float: right; margin: 10px 50px 10px 50px;" width="485" height="504" />Un </span><b>registro de arranque principal</b><span>, conocido también como </span><b>registro de arranque maestro</b><span> (por su nombre en inglés </span><i><b>master boot record</b></i><span>, </span><i><b>MBR</b></i><span>) es el primer </span>sector<span> de un </span>dispositivo de almacenamiento de datos<span>, como un </span>disco duro<span>.</span> La<span> </span><b>tabla de particiones</b><span> </span>está alojada a partir del<span> </span>byte<span> </span>446 y ocupa 64 bytes, conteniendo cuatro registros de 16 bytes, los cuales definen las<span> </span>particiones primarias. En ellos se almacena toda la información básica sobre la partición: si es arrancable, si no lo es, el formato, el tamaño y el sector de inicio.</p>
+<p style="text-align: justify;">El sistema MBR solo permite 4 particiones por disco y para cada una de ellas almacena:</p>
+<ul style="text-align: justify;">
+<li style="text-align: justify;">Una indicación de si la partición es arrancable, es decir, si contiene un sistema operativo.</li>
+<li style="text-align: justify;">El CHS ( cylinder-head-sector)  de inicio y de fin de la partición.</li>
+<li style="text-align: justify;">El tamaño en sectores.</li>
+<li style="text-align: justify;">El tipo de partición ( FAT16, FAT32, NTFS, etc)</li>
+</ul>
+<p style="text-align: justify;"><u><span lang="ES-MX">Existen 3 tipos diferentes de particiones:</span></u></p>
+<ul style="text-align: justify;">
+<li><strong><span lang="ES-MX">Partición primaria:</span></strong><span lang="ES-MX"><strong> </strong>Son las divisiones crudas o primarias del disco, solo puede haber 4 de éstas o 3 primarias y una extendida. </span></li>
+<li><strong><span lang="ES-MX">Partición extendida:</span></strong><span lang="ES-MX"> También conocida como partición secundaria es otro tipo de partición que actúa como una partición primaria; sirve para contener múltiples unidades lógicas en su interior. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico. Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas. Por lo tanto, es el único tipo de partición que no soporta un sistema de archivos directamente.</span></li>
+<li><strong><span lang="ES-MX">Partición lógica:</span></strong><span lang="ES-MX"><strong> </strong>Ocupa una porción de la partición extendida o la totalidad de la misma, la cual se ha formateado con un tipo específico de sistema de archivos (FAT32, NTFS, ext2,...) y se le ha asignado una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos. Puede haber un máximo de 23 particiones lógicas en una partición extendida. </span></li>
+</ul>
+<p style="text-align: justify;">Las limitaciones de MBR son las siguientes:</p>
+<ul style="text-align: justify;">
+<li>Solo 4 particiones primarias posibles. ( Aunque puede tener mas particiones extendidas.)</li>
+<li>Cada partición como mucho puede ser de 2TB.</li>
+<li>La información sobre las particiones lógicas de la unidad de almacenamiento se almacena en un único sitio y si se corrompe el disco puede quedar irrecuperable.</li>
+</ul>
+<p style="text-align: justify;"><span style="font-size: 18pt;">GPT</span></p>
+<p style="text-align: justify;"><span>GPT, acrónimo de </span><strong>GUID Partition Table</strong><span>, es el nuevo estándar que está sustituyendo a MBR y que está asociado con los nuevos sistemas UEFI. Su nombre viene de que a cada partición se le asocia un único identificador global (GUID), un identificador aleatorio tan largo que cada partición en el mundo podría tener su ID único. A día de hoy, GPT no tiene ningún límite más allá que los que establezcan los propios sistemas operativos, tanto en tamaño como en número de particiones.</span></p>
+<p style="text-align: justify;"><span><strong>La fiabilidad de los discos GPT es mucho mayor</strong> que la de MBR. Mientas que en esta segunda la tabla de particiones se almacena solo en los primeros sectores del disco, estando en problemas en caso de que se esta se pierde, corrompe o sobrescribe, GPT crea múltiples copias redundantes a lo largo de todo el disco de manera que, en caso de fallo, problema o error, la tabla de particiones se recupera automáticamente desde cualquiera de dichas copias.</span></p>
+<p style="text-align: justify;"><span>Mientras que el MBR comienza con el código de arranque maestro (Master Boot Code), que contienen un binario ejecutable que identifica la partición activa e inicia el proceso de arranque, la GPT se basa en las capacidades extendidas del EFI para estos procesos. A pesar de que una entrada de MBR comienza el disco, con propósitos de protectividad y compatibilidad con el viejo esquema BIOS PC, la GPT propiamente dicha comienza con la cabecera de la tabla de particiones.</span></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"></p>
+<p style="text-align: justify;"><span style="font-size: 18pt;"><span> </span></span></p>
+<p style="text-align: justify;"></p>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id33">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Como saber el tipo de partición en Windows y conversión a GPT por consola</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta33_54_2" class="block iDevice_content">
+<p><img src="img0.png" width="598" height="413" alt=" " /></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper GalleryIdevice em_iDevice" id="id35">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Como saber el tipo de partición y conversión desde Windows</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<ul class="exeImageGallery" id="exeImageGallery35">
+<li><a title="" href="1.png"><img alt="" width="128" height="128" src="1Thumbnail.png" /><span class="tit"></span></a></li>
+<li><a title="" href="2.png"><img alt="" width="128" height="128" src="2Thumbnail.png" /><span class="tit"></span></a></li>
+<li><a title="" href="3.png"><img alt="" width="128" height="128" src="3Thumbnail.png" /><span class="tit"></span></a></li>
+<li><a title="" href="4.png"><img alt="" width="128" height="128" src="4Thumbnail.png" /><span class="tit"></span></a></li>
+</ul>
+<script type="text/javascript">$exe.imageGallery.init("exeImageGallery35");</script>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id36">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Como saber el tipo de partición en linux</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta36_57_2" class="block iDevice_content">
+<p>Para saber de que tipo es la tabla de particiones en Linux, podemos usar el comando fdisk -l, que nos da el siguiente resultado ( además de mas datos ):</p>
+<p><img src="img0.1.png" width="524" height="192" alt=" " /></p>
+<p>Podemos cambiar la tabla de particiones mediante la utilidad gdisk, como se muestra a continuación:</p>
+<p><img src="5.png" alt="" width="655" height="486" /><img src="6.png" alt="" width="525" height="250" /></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id37">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta37_48_2" class="block iDevice_content">
+<ol>
+<li>¿Cuantas particiones admite el MBR?</li>
+<li>¿Donde se ubica la tabla de particiones?</li>
+<li>¿Que significa CHS?</li>
+<li>¿En que parte del disco se ubica el MBR?</li>
+<li>¿Que tamaño puede tener cada partición usando MBR?</li>
+<li>¿Que información almacena el MBR para cada partición?</li>
+<li>¿Cual es la diferencia en cuanto a fiabilidad de GPT frente a MBR?</li>
+<li>¿Puedo instalar un sistema de archivos directamente en una partición extendida?</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="disco_de_estado_solido__ssd_.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
