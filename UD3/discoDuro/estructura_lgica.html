@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="content.css" />
 <link rel="stylesheet" type="text/css" href="nav.css" />
 <meta http-equiv="content-type" content="text/html;  charset=utf-8" />
-<title>Estructura lógica | Hardware </title>
+<title>Estructura lógica | Fundamentos de hardware </title>
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta name="author" content="Diego Cordoba Aguirre" />
 <meta name="generator" content="eXeLearning  - exelearning.net" />
@@ -18,7 +18,7 @@
 <body class="exe-web-site" id="exe-node-3"><script type="text/javascript">document.body.className+=" js"</script>
 <div id="content">
 <p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
-<header id="header" ><div id="headerContent">Hardware</div></header>
+<header id="header" ><div id="headerContent">Fundamentos de hardware</div></header>
 <nav id="siteNav">
 <ul>
    <li><a href="index.html" class="daddy main-node">Disco duro (HDD)</a></li>
@@ -28,6 +28,7 @@
    <li><a href="smart.html" class="no-ch">S.M.A.R.T.</a></li>
    <li><a href="disco_de_estado_solido__ssd_.html" class="no-ch">Disco de estado solido ( SSD )</a></li>
    <li><a href="mbr_y_gpt.html" class="no-ch">MBR y GPT</a></li>
+   <li><a href="practicas.html" class="no-ch">Practicas</a></li>
 </ul>
 </nav>
 <div id='topPagination'>
@@ -66,8 +67,15 @@
 <div class="iDevice_content_wrapper">
 <div id="ta13_56_2" class="block iDevice_content">
 <div class="exe-text"><p><span style="color: #000000;">El proceso de formateo prepara un disco para que la información pueda ser almacenada y leída. Podemos distinguir entre formato físico (a bajo nivel) y formateo lógico (de alto nivel).</span></p>
-<p><span style="color: #000000;">El <strong>formateo físico</strong> crea en el dispositivo la estructura de pistas y sectores. Un disco que no esté formateado físicamente no puede ser usado, ya que no tiene creada la  estructura de pistas y sectores necesarios para almacenar información. Normalmente los dispositivos ya vienen formateados físicamente de fábrica.</span></p>
-<p><span style="color: #000000;">El <strong>formateo lógico</strong> permite instalar un sistema de archivos en el dispositivo. Normalmente los dispositivos también vienen formateados lógicamente de fábrica, y solemos realizar un nuevo formateo lógico simplemente para eliminar la información del dispositivo. Cuando en un SO realizamos la operación de formateo, siempre estaremos realizando un formateo lógico, para realizar un formateo físico se necesitan herramientas especiales, y es un procedimiento que normalmente no debe llevar a cabo el usuario. En realidad, cuando formateamos un dispositivo no borramos la información almacenada en el volumen de datos, sino que simplemente eliminamos las entradas de directorio de los ficheros, que es donde quedan asignados los clústeres a los ficheros, indicando que todos los clústeres están disponibles.</span></p></div>
+<p><span style="color: #000000;">El <strong>formateo físico</strong> crea en el dispositivo la estructura de pistas y sectores. Un disco que no esté formateado físicamente no puede ser usado, ya que no tiene creada la  estructura de pistas y sectores necesarios para almacenar información. Normalmente los dispositivos ya vienen formateados físicamente de fábrica. </span><span style="color: #000000;"></span></p>
+<p><span style="color: #000000;">En linux se podemos hacer una formateo fisico facilmente mediante el comandos: dd if=/dev/zero of=/dev/hda</span></p>
+<p><span style="color: #000000;">El <strong>formateo lógico</strong> permite instalar un sistema de archivos en el dispositivo. Normalmente los dispositivos también vienen formateados lógicamente de fábrica, y solemos realizar un nuevo formateo lógico simplemente para eliminar la información del dispositivo. Cuando en un SO realizamos la operación de formateo, siempre estaremos realizando un formateo lógico, para realizar un formateo físico se necesitan herramientas especiales, y es un procedimiento que normalmente no debe llevar a cabo el usuario. En realidad, cuando formateamos un dispositivo no borramos la información almacenada en el volumen de datos, sino que simplemente eliminamos las entradas de directorio de los ficheros, que es donde quedan asignados los clústeres a los ficheros, indicando que todos los clústeres están disponibles.</span></p>
+<p><span style="color: #000000;">En linux, dependiendo del sistema de archivos que queramos usar, podemos formatear fácilmente mediante los siguientes comandos:</span></p>
+<ul>
+<li><span style="color: #000000;"><span>para fat: mkfs.vfat /dev/sda</span><br /></span></li>
+<li><span style="color: #000000;"><span>para ntfs: mkfs.ntfs /dev/sda</span></span></li>
+<li><span style="color: #000000;"><span>para ext4 mkfs.ext4 /dev/sda</span></span></li>
+</ul></div>
 </div>
 </div>
 </div>

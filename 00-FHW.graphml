@@ -416,18 +416,6 @@ evaluación<y:LabelModel>
       </data>
     </node>
     <node id="n23">
-      <data key="d4"><![CDATA[UD3/ejercicios1.svg]]></data>
-      <data key="d6">
-        <y:ImageNode>
-          <y:Geometry height="28.02051282051282" width="27.877551020408163" x="947.7957724458194" y="290.29382921336713"/>
-          <y:Fill color="#CCCCFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="11.938775510204096" y="32.020512820512806"/>
-          <y:Image alphaImage="true" refid="1"/>
-        </y:ImageNode>
-      </data>
-    </node>
-    <node id="n24">
       <data key="d4"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
@@ -445,14 +433,32 @@ evaluación<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
+    <node id="n24">
+      <data key="d4"><![CDATA[apuntesHW/disco_duro.html]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="363.86016368024264"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.5244140625" x="71.09275152709392" y="0.8577769071256967">Imagen / clonado<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
     <node id="n25">
       <data key="d4"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="381.21634249449403"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="346.50398486599124"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.5244140625" x="71.09275152709392" y="0.8577769071256967">Imagen / clonado<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.1552734375" x="72.77732183959392" y="0.8577769071256967">Desfragmentado<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -467,43 +473,7 @@ evaluación<y:LabelModel>
       <data key="d4"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="346.50398486599124"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="42.5107421875" x="95.59958746459392" y="0.8577769071256967">SMART<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n27">
-      <data key="d4"><![CDATA[apuntesHW/disco_duro.html]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="363.86016368024264"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.1552734375" x="72.77732183959392" y="0.8577769071256967">Desfragmentado<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-          <y:Shape type="roundrectangle"/>
-        </y:ShapeNode>
-      </data>
-    </node>
-    <node id="n28">
-      <data key="d4"><![CDATA[apuntesHW/disco_duro.html]]></data>
-      <data key="d6">
-        <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="398.5725213087454"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="381.21634249449403"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="56.3779296875" x="88.66599371459392" y="0.8577769071256967">Inventario<y:LabelModel>
@@ -517,7 +487,7 @@ evaluación<y:LabelModel>
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n29">
+    <node id="n27">
       <data key="d4"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>

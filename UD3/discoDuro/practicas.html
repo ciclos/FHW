@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Practicas | Fundamentos de hardware </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Diego Cordoba Aguirre" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-9"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Fundamentos de hardware</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Disco duro (HDD)</a></li>
+   <li><a href="estructura_lgica.html" class="no-ch">Estructura lógica</a></li>
+   <li><a href="componentes_fsicos.html" class="no-ch">Componentes físicos</a></li>
+   <li><a href="caractersticas.html" class="no-ch">Características</a></li>
+   <li><a href="smart.html" class="no-ch">S.M.A.R.T.</a></li>
+   <li><a href="disco_de_estado_solido__ssd_.html" class="no-ch">Disco de estado solido ( SSD )</a></li>
+   <li><a href="mbr_y_gpt.html" class="no-ch">MBR y GPT</a></li>
+   <li id="active"><a href="practicas.html" class="active no-ch">Practicas</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="mbr_y_gpt.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Practicas</h1></header>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id40">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad 1</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta40_50_2" class="block iDevice_content">
+<ul>
+<li>Modifica la maquina virtual de Ubuntu, añadiendo un nuevo disco duro, concretamente el del windows 7 ( buscalo en el disco duro del anfitrion ).</li>
+<li>Inicia la maquina, logueate y cambia a superusuario. Para actualizar el cargador de arranque teclea: update-grub2.</li>
+<li>Reinicia la maquina e inmediatamente presiona repetidamente la tecla de cursor hacia abajo, para que Grub no seleccione automaticamente la primera opción.</li>
+<li>Ahora podrás ver que Windows 7 es una nueva opción. Inicia Windows 7.</li>
+<li>Administra los discos desde el administrador de discos de Windows. ¿Aparace la partición de Ubuntu?</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id41">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad 2</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta41_51_2" class="block iDevice_content">
+<ul>
+<li>Clona la maquina virtual de Windows 7.</li>
+<li>Inicia la maquina y deja un archivo en el escritorio. Cierra la maquina.</li>
+<li>Modifica la maquina del ejercicio uno cambiando el disco duro de la maquina Win7 por la que acabas de hacer.</li>
+<li>Inicia la maquina de Ubuntu y observa como no es necesario cambiar el Grub para que reconozca el nuevo win7.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id42">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad 3</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta42_52_2" class="block iDevice_content">
+<ul>
+<li>Modifica la maquina anterior, añadiendo HirensBoot como CD Live.</li>
+<li>Inicia la maquina y administra las particiones con el administrador de discos de Windows 10 y también con la utilizad AOMEI</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id46">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad 4</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta46_56_2" class="block iDevice_content">
+<ul>
+<li>En la maquina de windows 7 instala el software que puede encontrar en: <a href="http://www.hexworkshop.com/">http://www.hexworkshop.com/</a></li>
+<li>En el menu disk elige el disco fisico y ve al primer sector. Después navega hasta el offset 446.</li>
+<li>Analiza la tabla de particiones haciendo uso de los siguientes enlace:
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Tabla_de_particiones">Estructura tabla de particiones</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Tipo_de_partici%C3%B3n">Tipo de partición</a><br />Concrétamente busca el tamaño de cada partición y compara tus resultados con lo que puedes ver en el administrador de discos de windows.</li>
+</ul>
+</li>
+<li>Ten en cuenta que los valores representados en la tabla de particiones utiliza Litte Endian. A continuación puedes ver este tipo de representación y su contraria.<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Little-Endian.svg/200px-Little-Endian.svg.png" alt="Little-Endian.svg" /><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Big-Endian.svg/200px-Big-Endian.svg.png" alt="Big-Endian.svg" /></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id43">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad 5</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta43_53_2" class="block iDevice_content">
+<ul>
+<li>Modifica la maquina anterior sacando el CD Live.</li>
+<li>Inicia la maquina con Ubuntu. Logueate y pasa a superusuario.</li>
+<li>Con el comando <strong>lsblk</strong> podrás ver los dos discos y sus particiones.<br />Vamos a copiar el sector de arranque del primer disco con la utilidad dd, de la siguiente forma:<br /><strong><span style="background-color: #ffffff;"><em>dd if=/dev/sda of=mbr.bin bs=512 count=1</em></span></strong></li>
+<li>Ahora podemos examinar el contenido del archivo <strong>mbr.bin</strong> con el siguiente comando:<br /><em><strong>hexdump -C -s 446 mbr.bin</strong></em></li>
+<li>Analiza la tabla de particiones haciendo uso de los siguientes enlace:
+<ul>
+<li><a href="https://es.wikipedia.org/wiki/Tabla_de_particiones">Estructura tabla de particiones</a></li>
+<li><a href="https://es.wikipedia.org/wiki/Tipo_de_partici%C3%B3n">Tipo de partición</a></li>
+</ul>
+</li>
+<li>Haz lo mismo para el disco dos.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id44">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad 6</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta44_54_2" class="block iDevice_content">
+<ul>
+<li>Inicia la maquina anterior en Ubuntu.</li>
+<li>Instala la utilidad hexedit.</li>
+<li>Haz una copia de la tabla de particiones del disco uno.</li>
+<li>Abre el archivo con <strong>hexedit</strong>.</li>
+<li>Busca el byte 1be, que es donde empieza la tabla de particiones y cambia la partición de windows 7 a no activa.</li>
+<li>Cambia la tabla de particiones por esta nueva con el comando dd:<br /><strong><em>dd of=/dev/sda if=mbr.bin bs=512 count=1</em></strong></li>
+<li>Al reiniciar la maquina nos dará un error de inicio.</li>
+<li>Introduce el CD de Linux Mint como Live y recupera la tabla de particiones.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id45">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad 7 - Hacer en casa</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta45_55_2" class="block iDevice_content">
+<p>Vamos a clonar el disco de win 7 usando linux.</p>
+<ul>
+<li>Para ello crea una maquina con dos discos duros, uno de ellos el win 7 y otro de igual tamaño vacio. Además incluye en almacenamiento la iso de linux mint como CD live.</li>
+<li>Inicia la maquina con el CD Live.</li>
+<li>Entra en la consola y busca los discos con el comando: lsblk ( los discos SATA empezarán por sd y los discos IDE por hd )</li>
+<li>Puede que te haga falta formatear el disco, hazlo con: mkfs.vfat /dev/sdalgo</li>
+<li>Mediante el comando: <br />dd if=/dev/hda of=/dev/hdb bs=1M <br />Clonamos del disco hda al hdb por bloques de un megabyte en cada escritura.</li>
+<li>Una vez terminado, apaga la maquina, quita el disco de origen y el CD Live e inicia la maquina desde el disco duro que acabas de copiar</li>
+</ul>
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="mbr_y_gpt.html" class="prev"><span><span>&laquo; </span>Anterior</span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
