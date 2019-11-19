@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>RAID | Fundamentos de hardware </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Diego Cordoba Aguirre" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-13"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Fundamentos de hardware</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Disco duro (HDD)</a></li>
+   <li><a href="estructura_lgica.html" class="no-ch">Estructura lógica</a></li>
+   <li><a href="caractersticas.html" class="no-ch">Características</a></li>
+   <li><a href="componentes_fsicos.html" class="daddy">Componentes físicos</a>
+   <ul class="other-section">
+      <li><a href="disco_de_estado_solido__ssd_.html" class="no-ch">Disco de estado solido ( SSD )</a></li>
+   </ul>
+   </li>
+   <li><a href="smart.html" class="no-ch">S.M.A.R.T.</a></li>
+   <li class="current-page-parent"><a href="distribucin_logica.html" class="current-page-parent daddy">Distribución logica</a>
+   <ul>
+      <li><a href="mbr_y_gpt.html" class="daddy">MBR y GPT</a>
+      <ul class="other-section">
+         <li><a href="ejemplos_practicos.html" class="no-ch">Ejemplos practicos</a></li>
+      </ul>
+      </li>
+      <li id="active"><a href="raid.html" class="active daddy">RAID</a>
+      <ul>
+         <li><a href="ejemplos_practicos0.html" class="no-ch">Ejemplos practicos</a></li>
+      </ul>
+      </li>
+      <li><a href="lvm.html" class="no-ch">LVM</a></li>
+   </ul>
+   </li>
+   <li><a href="actividades.html" class="no-ch">Actividades</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="ejemplos_practicos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplos_practicos0.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">RAID</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id51">
+<div class="iDevice emphasis0" >
+<div id="ta51_51_2" class="block iDevice_content">
+<div class="exe-text"><p><span>Un </span><b>grupo/matriz redundante de discos independientes</b><span>​ (también, </span><b>RAID</b><span>, del </span>inglés<span> </span><i>redundant array of independent disks</i><span>) hace referencia a un </span>sistema de almacenamiento de datos<span> que utiliza múltiples unidades (</span>discos duros<span> o </span>SSD<span>), entre las cuales se distribuyen o replican los </span>datos<span>.</span></p>
+<p><span>Dependiendo de su configuración (a la que suele llamarse <i>nivel</i>), los beneficios de un RAID respecto a un único disco son uno o varios de los siguientes: mayor integridad, tolerancia frente a fallos, tasa de transferencia y capacidad. En el nivel más simple, un RAID combina varios discos duros en una sola unidad lógica. Así, en lugar de ver varios discos duros diferentes, el sistema operativo ve uno solo.</span></p>
+<p>Los niveles RAID más comúnmente usados son:</p>
+<ul>
+<li><strong>RAID 0: Conjunto en espejo</strong></li>
+</ul>
+<p><span><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Raid0.png/220px-Raid0.png" style="float: right; margin-right: 20px; margin-left: 20px;" width="119" height="155" />Un RAID 0 (también llamado conjunto dividido, volumen dividido, volumen seccionado) distribuye los datos equitativamente entre dos o más discos . El RAID 0 se usa habitualmente para proporcionar un alto rendimiento de escritura ya que los datos se escriben en dos o más discos de forma paralela, aunque un mismo fichero solo está presente una vez en el conjunto. RAID 0 también puede utilizarse como forma de crear un pequeño número de grandes discos virtuales a partir de un gran número de pequeños discos físicos. Un RAID 0 puede ser creado con discos de diferentes tamaños, pero el espacio de almacenamiento añadido al conjunto estará limitado por el tamaño del disco más pequeño.</span></p>
+<p><span>No debe confundirse RAID 0 con un Volumen Distribuido (Spanned Volume) en el cual se agregan múltiples espacios no usados de varios discos para formar un único disco virtual. Es posible que en un Volumen Distribuido el fichero a recuperar esté presente en un solo disco del conjunto, debido a que aquí no hay una distribución equitativa de los datos (como se mencionó, para RAID 0); por lo tanto, en ese caso no sería posible la recuperación paralela de datos y no mejoraría el rendimiento de lectura.</span></p>
+<ul>
+<li><strong>RAID 1: Conjunto en espejo</strong></li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Raid1.png/220px-Raid1.png" style="float: right; margin-right: 20px; margin-left: 20px;" width="119" height="153" />Un RAID 1 crea una copia exacta (o espejo) de un conjunto de datos en dos o más discos. Esto resulta útil cuando queremos tener más seguridad desaprovechando capacidad, ya que si perdemos un disco, tenemos el otro con la misma información. Un conjunto RAID 1 sólo puede ser tan grande como el más pequeño de sus discos. Un RAID 1 clásico consiste en dos discos en espejo, lo que incrementa exponencialmente la fiabilidad respecto a un solo disco; es decir, la probabilidad de fallo del conjunto es igual al producto de las probabilidades de fallo de cada uno de los discos (pues para que el conjunto falle es necesario que lo hagan<span> </span><i>todos</i><span> </span>sus discos).</p>
+<p>Además, dado que todos los datos están en dos o más discos, con hardware habitualmente independiente, el rendimiento de lectura se incrementa aproximadamente como múltiplo lineal del número de copias; es decir, un RAID 1 puede estar leyendo simultáneamente dos datos diferentes en dos discos diferentes, por lo que su rendimiento se duplica.<span> </span></p>
+<p>Al escribir, el conjunto se comporta como un único disco, dado que los datos deben ser escritos en todos los discos del RAID 1. Por tanto, el rendimiento de escritura no mejora.</p>
+<p>El RAID 1 tiene muchas ventajas de administración. Por ejemplo, en algunos entornos<span> </span>24/7, es posible «dividir el espejo»: marcar un disco como inactivo, hacer una<span> </span>copia de seguridad<span> </span>de dicho disco y luego «reconstruir» el espejo.</p></div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="ejemplos_practicos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="ejemplos_practicos0.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

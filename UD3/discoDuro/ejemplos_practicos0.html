@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Ejemplos practicos | Fundamentos de hardware </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Diego Cordoba Aguirre" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-15"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Fundamentos de hardware</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Disco duro (HDD)</a></li>
+   <li><a href="estructura_lgica.html" class="no-ch">Estructura lógica</a></li>
+   <li><a href="caractersticas.html" class="no-ch">Características</a></li>
+   <li><a href="componentes_fsicos.html" class="daddy">Componentes físicos</a>
+   <ul class="other-section">
+      <li><a href="disco_de_estado_solido__ssd_.html" class="no-ch">Disco de estado solido ( SSD )</a></li>
+   </ul>
+   </li>
+   <li><a href="smart.html" class="no-ch">S.M.A.R.T.</a></li>
+   <li class="current-page-parent"><a href="distribucin_logica.html" class="current-page-parent daddy">Distribución logica</a>
+   <ul>
+      <li><a href="mbr_y_gpt.html" class="daddy">MBR y GPT</a>
+      <ul class="other-section">
+         <li><a href="ejemplos_practicos.html" class="no-ch">Ejemplos practicos</a></li>
+      </ul>
+      </li>
+      <li class="current-page-parent"><a href="raid.html" class="current-page-parent daddy">RAID</a>
+      <ul>
+         <li id="active"><a href="ejemplos_practicos0.html" class="active no-ch">Ejemplos practicos</a></li>
+      </ul>
+      </li>
+      <li><a href="lvm.html" class="no-ch">LVM</a></li>
+   </ul>
+   </li>
+   <li><a href="actividades.html" class="no-ch">Actividades</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="raid.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lvm.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Ejemplos practicos</h1></header>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id52">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta52_52_2" class="block iDevice_content">
+<header class="entry-header"></header>
+<div class="entry-content">
+<h2>RAID 0 </h2>
+<p><strong>Requisitos:</strong></p>
+<ol>
+<li>Para hacer RAID por software son necesarios dos unidades de discos duro.</li>
+<li>Los discos deben ser dinámicos.</li>
+<li>Tienen que ser idénticos (para no perder espacio en los mismos).</li>
+</ol>
+<p><strong>Escenario:</strong></p>
+<ul>
+<li>Windows 7 32 Bits</li>
+<li>2 x HDD 10 GB</li>
+<li>Tamaño total 20 GB cada disco aporta 10 GB</li>
+</ul>
+<p><span><strong>PASO 1.</strong></span>  Para hacer RAID por software, debemos acceder al menú de<span> </span><strong>Administración de Equipos</strong><span> </span>(clic derecho en mí PC y administrar). Dentro de Administración de Equipos accedemos a<span> </span><strong>Almacenamiento -&gt; Administrador de discos</strong>. La primera vez que accedemos a la Administración de Equipos después de instalar los discos duros, preguntara si queremos inicializar los discos. </p>
+<p><img class="aligncenter size-full wp-image-7473" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_1.png" alt="Raid 0 en Windows 7" width="561" height="380" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_1.png 561w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_1-500x339.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_1-300x203.png 300w" sizes="(max-width: 561px) 100vw, 561px" /></p>
+<p><span><strong>PASO 2.</strong></span> Seleccionamos los dos discos y como estilo de partición elegiremos<span> </span><strong>MRB (Registro de arranque maestro)</strong><span> </span>Una vez seleccionados pulsamos<span> </span><strong>Aceptar</strong>. Una vez tenemos inicializados los discos, hacemos clic derecho en uno de los discos y seleccionamos la opción <strong>Nuevo volumen seccionado </strong>tal y como se puede ver en la siguiente imagen. Podéis hacer click para agrandarla.</p>
+<p><a href="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2.png" target="_blank" data-featherlight="image" rel="noopener"><img class="aligncenter wp-image-7452" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2.png" alt="Raid 0 en Windows" width="650" height="116" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2.png 1507w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2-1320x236.png 1320w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2-500x89.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2-300x54.png 300w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2-768x137.png 768w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_2-1024x183.png 1024w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+<p><span><strong>PASO 3.</strong></span> Esto abrirá el<span> </span><strong>Asistente</strong><span> </span>para nuevo volumen seccionado que nos guiara en el proceso de creación. Pulsamos el botón<span> </span><strong>Siguiente</strong>.</p>
+<p><img class="aligncenter size-full wp-image-7453" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_3.png" alt="Raid 0 en Windows" width="680" height="489" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_3.png 680w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_3-500x360.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_3-300x216.png 300w" sizes="(max-width: 680px) 100vw, 680px" /></p>
+<p><span><strong>PASO 4.</strong></span>  La próxima pantalla del Asistente, nos permite seleccionar los discos que deseamos agregar y la cantidad de espacio de los mismos. Seleccionamos en<span> </span><strong>Disponibles</strong><span> </span>los que queramos y pulsamos<span> </span><strong>Agregar</strong>. Al hacer esto, pasarán directamente a<span> </span><strong>Seleccionados</strong>. Cuando tengamos los discos y tamaño seleccionados pulsamos en<span> </span><strong>Siguiente</strong>.</p>
+<p><img class="aligncenter size-full wp-image-7454" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_4.png" alt="Raid 0 en Windows" width="677" height="494" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_4.png 677w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_4-500x365.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_4-300x219.png 300w" sizes="(max-width: 677px) 100vw, 677px" /></p>
+<p><span><strong>PASO 5.</strong></span> La próxima ventana nos permite<span> </span><strong>Asignar letra de unidad o ruta de acceso</strong>  a nuestro volumen, cosa que en el sistema operativo Windows es imprescindible. Elegimos una de las opciones y pulsamos en<span> </span><strong>Siguiente</strong>.</p>
+<p><img class="aligncenter size-full wp-image-7455" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_5.png" alt="Raid 0 en Windows" width="679" height="493" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_5.png 679w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_5-500x363.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_5-300x218.png 300w" sizes="(max-width: 679px) 100vw, 679px" /></p>
+<p><span><strong>PASO 6.</strong></span> El siguiente paso del asistente permite<span> </span><strong>Formatear el volumen</strong> o bien dejar esta tarea para después. En nuestro caso hemos seleccionado la opción Formatear con sistema de archivos NTFS. Después pulsamos en<span> </span><strong>Siguiente</strong>.</p>
+<p><img class="aligncenter size-full wp-image-7456" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_6.png" alt="Raid 0 en Windows" width="678" height="492" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_6.png 678w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_6-500x363.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_6-300x218.png 300w" sizes="(max-width: 678px) 100vw, 678px" /></p>
+<p><span><strong>PASO 7.</strong></span> Llegamos a la última parte del asistente donde podemos observar el<span> </span><strong>resumen de nuestra configuración</strong>. Debemos prestar atención a la misma para ver si hemos cometido algún error y si todo está correcto pulsamos en<span> </span><strong>Finalizar</strong><span> </span>y se aplicara la configuración.</p>
+<p><img class="aligncenter size-full wp-image-7457" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_7.png" alt="Raid 0 en Windows" width="681" height="493" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_7.png 681w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_7-500x362.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_7-300x217.png 300w" sizes="(max-width: 681px) 100vw, 681px" /></p>
+<p><span><strong>PASO 8.</strong></span>  Volveremos a la ventana principal del<span> </span><strong>Administrador de discos</strong><span> </span>donde veremos nuestro RAID 0 establecido de forma correcta para proceder con su uso.</p>
+<p><a href="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1.png" target="_blank" data-featherlight="image" rel="noopener"><img class="aligncenter wp-image-7474" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1.png" alt="Raid 0 en Windows" width="650" height="241" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1.png 1536w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1-1320x489.png 1320w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1-500x185.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1-300x111.png 300w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1-768x285.png 768w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/1_8-1-1024x379.png 1024w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper activityIdevice em_iDevice" id="id53">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Actividad</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta53_53_2" class="block iDevice_content">
+<h2>RAID 1 ó Volumen reflejado</h2>
+<p><strong>Requisitos:</strong></p>
+<ol>
+<li>Dos unidades de discos duro.</li>
+<li>Los discos deben ser dinámicos.</li>
+</ol>
+<p><strong>Escenario:</strong></p>
+<ul>
+<li>Windows 7 32 Bits</li>
+<li>2 x HDD 10 GB</li>
+<li>Tamaño total 10 GB cada disco aporta 10 GB</li>
+</ul>
+<p><span><strong>PASO 1.</strong></span>  Accedemos al menú de<span> </span><strong>Administración de Equipos</strong><span> </span>(clic derecho en mí PC y administrar). Dentro de Administración de Equipos accedemos a<span> </span><strong>Almacenamiento -&gt; Administrador de discos</strong>. Como ocurría con el RAID 0, la primera vez que accedemos a la Administración de Equipos después de instalar los discos duros, preguntara si queremos inicializar los discos. Una vez seleccionados los discos que queramos pulsamos<span> </span><strong>Aceptar</strong>. Inicializados los discos, clic derecho en uno de los discos y seleccionamos<span> </span><strong>Nuevo volumen reflejado</strong>.</p>
+<p><a href="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1.png" target="_blank" data-featherlight="image" rel="noopener"><img class="aligncenter wp-image-7459" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1.png" alt="Raid 1 en Windows" width="650" height="113" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1.png 1510w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1-1320x230.png 1320w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1-500x87.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1-300x52.png 300w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1-768x134.png 768w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_1-1024x178.png 1024w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+<p><span><strong>PASO 2.</strong></span> Esto abrirá el Asistente para nuevo volumen reflejado (similar al del caso anterior) que nos guiará en el proceso de creación. Pulsamos<span> </span><strong>Siguiente</strong>.</p>
+<p><img class="aligncenter size-full wp-image-7460" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_2.png" alt="Raid 1 en Windows" width="677" height="493" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_2.png 677w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_2-500x364.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_2-300x218.png 300w" sizes="(max-width: 677px) 100vw, 677px" /></p>
+<p><span><strong>PASO 3.</strong></span> La siguiente pantalla del Asistente, nos permite seleccionar los discos que deseamos agregar y la cantidad de espacio de los mismos que queremos usar. Cuando tengamos los discos y tamaño seleccionados pulsamos en<span> </span><strong>Siguiente.</strong></p>
+<p><img class="aligncenter size-full wp-image-7461" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_3.png" alt="Raid 1 en Windows" width="677" height="496" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_3.png 677w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_3-500x366.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_3-300x220.png 300w" sizes="(max-width: 677px) 100vw, 677px" /></p>
+<p><span><strong>PASO 4.</strong></span> En la siguiente ventana podemos<span> </span><strong>Asignar letra de unidad o ruta de acceso</strong>, decidimos lo que mejor se adapte a nuestras necesidades y pulsamos<span> </span><strong>Siguiente</strong>.</p>
+<p><img class="aligncenter size-full wp-image-7462" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_4.png" alt="Raid 1 en Windows" width="677" height="494" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_4.png 677w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_4-500x365.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_4-300x219.png 300w" sizes="(max-width: 677px) 100vw, 677px" /></p>
+<p><span><strong>PASO 5.</strong></span><span> </span>En la próxima ventana el asistente permite <strong>Formatear el volumen</strong>, de nuevo elegimos y pulsamos <strong>Siguiente.</strong></p>
+<p><img class="aligncenter size-full wp-image-7463" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_5.png" alt="Raid 1 en Windows" width="677" height="490" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_5.png 677w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_5-500x362.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_5-300x217.png 300w" sizes="(max-width: 677px) 100vw, 677px" /></p>
+<p><span><strong>PASO 6.</strong></span> Esta última ventana muestra la finalización del asistente, debemos prestar atención en la configuración y si todo está correcto pulsamos en<span> </span><strong>Finalizar</strong>.</p>
+<p><img class="aligncenter size-full wp-image-7464" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_6.png" alt="Raid 1 en Windows" width="679" height="495" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_6.png 679w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_6-500x365.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_6-300x219.png 300w" sizes="(max-width: 679px) 100vw, 679px" /></p>
+<p><span><strong>PASO 7.</strong></span> Una vez de vuelta a la ventana principal del<span> </span><strong>Administrador de discos</strong><span> </span>podemos comprobar nuestro RAID 1 (Volumen reflejado en Windows).</p>
+<p><a href="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_8.png" target="_blank" data-featherlight="image" rel="noopener"><img class="aligncenter wp-image-7476" src="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_8.png" alt="Raid 1 en Windows" width="650" height="302" srcset="https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_8.png 771w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_8-500x232.png 500w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_8-300x139.png 300w, https://www.masqueteclas.com/wordpress/wp-content/uploads/2016/03/2_8-768x357.png 768w" sizes="(max-width: 650px) 100vw, 650px" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="raid.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="lvm.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>

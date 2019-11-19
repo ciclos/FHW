@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>LVM | Fundamentos de hardware </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Diego Cordoba Aguirre" />
+<meta name="generator" content="eXeLearning  - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Fundamentos de hardware</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Disco duro (HDD)</a></li>
+   <li><a href="estructura_lgica.html" class="no-ch">Estructura lógica</a></li>
+   <li><a href="caractersticas.html" class="no-ch">Características</a></li>
+   <li><a href="componentes_fsicos.html" class="daddy">Componentes físicos</a>
+   <ul class="other-section">
+      <li><a href="disco_de_estado_solido__ssd_.html" class="no-ch">Disco de estado solido ( SSD )</a></li>
+   </ul>
+   </li>
+   <li><a href="smart.html" class="no-ch">S.M.A.R.T.</a></li>
+   <li class="current-page-parent"><a href="distribucin_logica.html" class="current-page-parent daddy">Distribución logica</a>
+   <ul>
+      <li><a href="mbr_y_gpt.html" class="daddy">MBR y GPT</a>
+      <ul class="other-section">
+         <li><a href="ejemplos_practicos.html" class="no-ch">Ejemplos practicos</a></li>
+      </ul>
+      </li>
+      <li><a href="raid.html" class="daddy">RAID</a>
+      <ul class="other-section">
+         <li><a href="ejemplos_practicos0.html" class="no-ch">Ejemplos practicos</a></li>
+      </ul>
+      </li>
+      <li id="active"><a href="lvm.html" class="active no-ch">LVM</a></li>
+   </ul>
+   </li>
+   <li><a href="actividades.html" class="no-ch">Actividades</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="ejemplos_practicos0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividades.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">LVM</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id50">
+<div class="iDevice emphasis0" >
+<div id="ta50_50_2" class="block iDevice_content">
+<div class="exe-text"><p><span>De forma simplificada podríamos decir que </span><em>LVM</em><span> es una capa de abstracción entre un dispositivo de almacenamiento (por ejemplo un disco) y un sistema de ficheros. </span></p>
+<p><span>Las ventajas que tienen son múltiples, pero la inicial y más evidente es la flexibilidad frente al particionado tradicional. Pongamos (sin <em>LVM</em>) que creamos 4 particiones contiguas en un disco. Si en el futuro quisieramos aumentar alguna de las 3 primeras no podríamos hacerlo sin borrar las siguientes, lo que es complejo, peligroso y requiere de parada del servicio casi seguro. Pongamos que quisieramos ampliar la última, siempre tendríamos el límite del tamaño del disco. Pongamos que compramos un disco nuevo, y queremos ampliar el espacio de un sistema de ficheros existente en el disco anterior con el espacio nuevo, imposible salvo con «ñapas» de nuevos sistemas de ficheros y puntos de montaje. Con <em>LVM</em> todas esas limitaciones desaparecen. Podemos aumentar sus «particiones» (volúmenes lógicos en adelante) independientemente de que no haya espacio libre contiguo a éstas. Podemos aumentar sus volúmenes lógicos con espacio libre de diferentes discos físicos. E incluso podemos mover volúmenes lógicos entre dispositivos físicos. Y lo mejor de todo… ¡en caliente! Sin desmontar el sistema de ficheros, ¡sin parar un servicio! </span></p>
+<p><strong>Nomenglatura</strong></p>
+<ul>
+<li><strong>Volumen físico/Physical Volume (PV)</strong>. Un volumen físico (PV en adelante) es un dispositivo de almacenamiento, o más correctamente expresado un dispositivo de bloque. Puede ser un disco duro, una partición, una tarjeta SD, un floppy, un dispositivo RAID, etc. Para simplificar diremos que un PV es una fuente de almacenamiento, es decir un dispositivo que nos proporciona espacio. En el ejemplo más sencillo: el disco duro de nuestra máquina, o una partición en él. Un PV no hay que formatearlo, simplemente se le entregará al<span> </span><em>LVM</em><span> </span>«en crudo» y desde ese momento será gestionado por el LVM, no volveremos a tocarlo.</li>
+<li><strong>Grupo de volúmenes/Volume Group (VG)</strong><span>. Para poder usar el espacio/almacenamiento de un PV, éste debe pertenecer a un Grupo de volúmenes (en adelante VG). El VG será el centro del universo </span><em>LVM</em><span>. Podemos decir que un VG es una especie de disco duro virtual (ya veo a los puristas rasgándose las vestiduras). Un VG es un «disco» compuesto de UNO o más PVs y que crece simplemente añadiendo más PVs. A diferencia de un disco real, un VG puede crecer con el tiempo, sólo hay que «darle» un PV más. En una máquina con un sólo disco podemos crear un VG que esté compuesto por un sólo PV (el disco físico o una de sus particiones). Si con el tiempo nos quedamos sin espacio en el VG, compramos otro disco (PV), lo añadimos al VG y el resto es transparente para sistemas de ficheros, procesos o usuarios.</span></li>
+<li><span><strong>Volumen Lógico/Logical Volume (LV)</strong>. Los volúmenes lógicos (en adelante LV) son «el producto final» del <em>LVM</em>. Son estos dispositivos los que usaremos para crear sistemas de ficheros, swap, discos para máquinas virtuales, etc… Por seguir con la analogía del «disco duro virtual» que es el VG, los LVs serían las particiones. Con los que vamos a trabajar realmente. A diferencia de «sus primas» las particiones tradicionales, los LVs pueden crecer (mientras haya espacio en el VG) independientemente de la posición en la que estén, incluso expandiéndose por diferentes PVs. Un LV de 1G puede estar compuesto de 200MB procedentes de un disco duro, 400MB de un RAID software, y 400MB de una partición en un tercer dispositivo físico. El único requisito es que todo los PVs pertenezcan al mismo VG.</span></li>
+</ul>
+<p>Con estos términos claros podemos explicar mejor la flexibilidad del <em>LVM</em> con unos ejemplos:</p>
+<ul>
+<li>Un LV puede crecer siempre que haya espacio libre en el VG al que pertenece. El<span> </span><em>LVM</em><span> </span>se encarga de que lo que haya sobre el LV (frecuentemente un sistema de ficheros) vea todo el espacio continuo. Podemos crear inicialmente un LV usando espacio de un PV, pero si posteriormente queremos aumentarlo, aunque no quede espacio en el PV original, podemos usar espacio de cualquier PV que pertenezca al VG. Para el sistema de ficheros será transparente.</li>
+<li>Podemos cambiar el espacio asignado  de un PV a un LV a otro PV (que tenga espacio suficiente libre). Me explico, yo puedo crear un LV de 10G en un PV que sea un disco. Si posteriormente meto en el VG un PV que sea un RAID, podría mover los 10G que estaba usando del disco al RAID, en caliente y de forma transparente al sistema de ficheros y las aplicaciones que lo usan. De forma que si con el tiempo puedo mejorar el hardware de la máquina, no tengo porque volver a crear un sistema de ficheros, copiar los datos y cambiar el montaje. Con LVM simplemente digo: los 10G del LV que están en un PV los quiero mover a un PV diferente. Y el hará la mudanza sin interrumpir el funcionamiento del sistema.</li>
+<li>Para poder disfrutar al máximo de la flexibilidad del LVM es importante tener la mayor cantidad de espacio libre en el VG (volveré a este tema más tarde), pero tarde o temprano nos quedaremos sin espacio en un VG (porque usemos todo el espacio de sus PVs). Bien, esto, que tradicionalmente es bastante complicado de gestionar, con LVM es tan sencillo como darle otro PV al VG. Añadimos un disco (PV) a la máquina y lo asignamos al VG, que pasa a tener todo ese espacio nuevo disponible para cualquiera de los LVs que contenga. O para crear LVs nuevos.</li>
+</ul>
+<p><span></span></p></div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="ejemplos_practicos0.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="actividades.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
