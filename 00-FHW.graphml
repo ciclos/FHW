@@ -18,7 +18,7 @@
       <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="306.3561788142514" width="255.1708984375" x="353.4143153968366" y="270.2093022591863"/>
+          <y:Geometry height="306.3561788142514" width="255.1708984375" x="368.4143153968366" y="270.2093022591863"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="125.58544921875" y="151.1780894071257">
@@ -37,7 +37,7 @@
       <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="73.81734531523443" width="255.1708984375" x="44.820006515761804" y="270.20930225918636"/>
+          <y:Geometry height="73.81734531523443" width="255.1708984375" x="59.820006515761804" y="270.20930225918636"/>
           <y:Fill color="#CC99FF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="125.58544921875" y="34.90867265761722">
@@ -57,10 +57,11 @@
       <data key="d6">
         <y:ShapeNode>
           <y:Geometry height="49.92233300196611" width="939.0945442654881" x="38.734557297011804" y="180.3737313219632"/>
-          <y:Fill color="#FF6600" transparent="false"/>
+          <y:Fill color="#0000FF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="3.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="281.91015625" x="328.59219400774407" xml:space="preserve" y="11.32054150098304">Fundamentos de Hardware<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="20" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="27.28125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#FFFFFF" verticalTextPosition="bottom" visible="true" width="281.91015625" x="328.59219400774407" xml:space="preserve" y="11.32054150098304">Fundamentos de Hardware<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="roundrectangle"/>
+          <y:DropShadow color="#B3A691" offsetX="5" offsetY="5"/>
         </y:ShapeNode>
       </data>
     </node>
@@ -68,7 +69,7 @@
       <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="38.35617881425141" width="268.1708984375" x="38.734557297011804" y="244.88739166631206"/>
+          <y:Geometry height="38.35617881425141" width="268.1708984375" x="53.734557297011804" y="244.88739166631206"/>
           <y:Fill color="#CC99FF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="20.447265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="166.1484375" x="51.01123046875" xml:space="preserve" y="8.954456594625697">Preveción de riesgos<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -80,7 +81,7 @@
       <data key="d4" xml:space="preserve"><![CDATA[02-Evaluacion.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.67808940712571" width="116.78261076247531" x="484.658203125" y="124.09455638959071"/>
+          <y:Geometry height="43.67808940712571" width="116.78261076247531" x="572.658203125" y="124.09455638959071"/>
           <y:Fill color="#99CCFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="70.92578125" x="22.928414756237657" xml:space="preserve" y="12.854669703562848">Evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -92,7 +93,7 @@
       <data key="d4" xml:space="preserve"><![CDATA[RA.png]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.67808940712571" width="116.78261076247531" x="651.658203125" y="124.09455638959071"/>
+          <y:Geometry height="43.67808940712571" width="116.78261076247531" x="702.658203125" y="123.07806765077177"/>
           <y:Fill color="#99CCFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="89.5" x="13.641305381237657" xml:space="preserve" y="5.870294703562848">Resultados de
@@ -105,7 +106,7 @@ aprendizaje<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[ie.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="43.67808940712571" width="116.78261076247531" x="818.658203125" y="124.09455638959071"/>
+          <y:Geometry height="43.67808940712571" width="116.78261076247531" x="832.658203125" y="124.09455638959071"/>
           <y:Fill color="#99CCFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="103.92578125" x="6.4284147562376575" xml:space="preserve" y="5.870294703562848">Instrumentos de
@@ -118,7 +119,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD1/ejercicios.svg]]></data>
       <data key="d6">
         <y:ImageNode>
-          <y:Geometry height="28.0" width="27.857142857142858" x="306.9054557345118" y="295.88739166631206"/>
+          <y:Geometry height="28.0" width="27.857142857142858" x="321.9054557345118" y="295.88739166631206"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="11.928571428571445" y="32.0"/>
@@ -130,7 +131,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD1/guiaPrevencion.pdf]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="54.932704641755834" y="295.88739166631206"/>
+          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="69.93270464175583" y="295.88739166631206"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="102.6328125" x="64.92075977393205" xml:space="preserve" y="0.8577769071256967">Guia de prevención<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -142,7 +143,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD1/videos.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="54.932704641755834" y="313.24357048056345"/>
+          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="69.93270464175583" y="313.24357048056345"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="97.4375" x="67.51841602393205" xml:space="preserve" y="0.8577769071256967">Videos prevención<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -154,7 +155,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="173.46752335206645" width="255.1708984375" x="673.3553646687253" y="269.2355491808694"/>
+          <y:Geometry height="173.46752335206645" width="255.1708984375" x="688.3553646687253" y="269.2355491808694"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="125.58544921875" y="84.73376167603323">
@@ -173,10 +174,10 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="38.35617881425141" width="268.1708984375" x="667.2699154499753" y="243.91363858799502"/>
+          <y:Geometry height="38.35617881425141" width="268.1708984375" x="682.2699154499753" y="243.91363858799502"/>
           <y:Fill color="#FFCC00" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="20.447265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="80.8701171875" x="93.650390625" xml:space="preserve" y="8.954456594625697">Hardware<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="20.447265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.1103515625" x="88.5302734375" xml:space="preserve" y="8.954456594625697">Disco Duro<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="roundrectangle"/>
         </y:ShapeNode>
       </data>
@@ -185,7 +186,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/ejercicios1.svg]]></data>
       <data key="d6">
         <y:ImageNode>
-          <y:Geometry height="28.02051282051282" width="27.877551020408163" x="615.4778136483171" y="295.88739166631217"/>
+          <y:Geometry height="28.02051282051282" width="27.877551020408163" x="630.4778136483171" y="295.88739166631217"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="11.938775510204096" y="32.020512820512806"/>
@@ -197,7 +198,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/sistemasNumeracion.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="364.76259859165464" y="295.88739166631217"/>
+          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="379.76259859165464" y="295.88739166631217"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="128.6533203125" x="51.91050586768205" xml:space="preserve" y="0.8577769071256967">Sistemas de numeración<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -209,7 +210,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/unidadesMedida.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="363.52701352283077" y="313.24357048056345"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="378.52701352283077" y="313.24357048056345"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="120.19140625" x="56.75925543334398" xml:space="preserve" y="0.8577769071256967">Magnitudes de medida<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -221,7 +222,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="38.35617881425141" width="268.1708984375" x="347.3288661780866" y="244.88739166631206"/>
+          <y:Geometry height="38.35617881425141" width="268.1708984375" x="362.3288661780866" y="244.88739166631206"/>
           <y:Fill color="#99CC00" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="20.447265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.34375" x="97.41357421875" xml:space="preserve" y="8.954456594625697">Software<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -233,7 +234,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/estructuraSoftware.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="364.76259859165464" y="330.59974929481484"/>
+          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="379.76259859165464" y="330.59974929481484"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="124.439453125" x="54.01743946143205" xml:space="preserve" y="0.8577769071256967">Estructura del software<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -245,7 +246,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/ejercicios2.svg]]></data>
       <data key="d6">
         <y:ImageNode>
-          <y:Geometry height="28.02051282051282" width="27.877551020408163" x="615.4778136483171" y="324.89764807656854"/>
+          <y:Geometry height="28.02051282051282" width="27.877551020408163" x="630.4778136483171" y="324.89764807656854"/>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="sandwich" modelPosition="s" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="11.938775510204096" y="32.020512820512806"/>
@@ -257,7 +258,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD3/discoDuro/index.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="295.6259962164978"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="699.0858553291314" y="295.6259962164978"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="58.7900390625" x="87.45993902709392" xml:space="preserve" y="0.8577769071256967">Disco duro<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -269,7 +270,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/maquinasVirtuales.svg]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="364.7625985916545" y="400.0244645518204"/>
+          <y:Geometry height="17.356178814251408" width="232.4743320478641" x="379.7625985916545" y="400.0244645518204"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.2509765625" x="65.61167774268205" xml:space="preserve" y="0.8577769071256967">Maquinas virtuales<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -281,7 +282,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/historiaWindows.pdf]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="364.1448060572427" y="347.95592810906624"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="379.1448060572427" y="347.95592810906624"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.5205078125" x="70.59470465209398" xml:space="preserve" y="0.8577769071256967">Historia windows<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -293,7 +294,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/historiaLinux.pdf]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="364.1448060572427" y="365.31210692331763"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="379.1448060572427" y="365.31210692331763"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.1259765625" x="80.29197027709398" xml:space="preserve" y="0.8577769071256967">Historia linux<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -305,7 +306,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[UD2/licencias.pdf]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="364.1448060572427" y="382.668285737569"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="379.1448060572427" y="382.668285737569"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.6904296875" x="91.00974371459398" xml:space="preserve" y="0.8577769071256967">Licencias<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -317,7 +318,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="363.52701352283066" y="446.19009557281106"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="378.52701352283066" y="446.19009557281106"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="68.3310546875" x="82.68943121459398" xml:space="preserve" y="0.8577769071256967">Particionado<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -329,7 +330,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="363.52701352283066" y="480.90245320131385"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="378.52701352283066" y="480.90245320131385"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.5244140625" x="71.09275152709398" xml:space="preserve" y="0.8577769071256967">Imagen / clonado<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -341,7 +342,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="363.52701352283066" y="463.54627438706245"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="378.52701352283066" y="463.54627438706245"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="88.1552734375" x="72.77732183959398" xml:space="preserve" y="0.8577769071256967">Desfragmentado<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -353,7 +354,7 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       <data key="d4" xml:space="preserve"><![CDATA[apuntesHW/disco_duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="363.52701352283066" y="430.0244645518204"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="378.52701352283066" y="430.0244645518204"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.7900390625" x="92.45993902709398" xml:space="preserve" y="0.8577769071256967">Chequeo<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -362,10 +363,53 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
       </data>
     </node>
     <node id="n27">
-      <data key="d4" xml:space="preserve"><![CDATA[UD3/discoDuro/index.html]]></data>
+      <data key="d4" xml:space="preserve"><![CDATA[hardware/interfaces-disco-duro.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="336.4410680632477"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="699.0858553291314" y="316.03353213987276"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.7734375" x="60.968239808343924" xml:space="preserve" y="0.8577769071256967">Interfaces disco duro<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n28">
+      <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="105.46752335206645" width="255.1708984375" x="688.3553646687253" y="506.96446798275025"/>
+          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="125.58544921875" y="50.73376167603317">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n29">
+      <data key="d4" xml:space="preserve"><![CDATA[100-Programas.html]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="38.35617881425141" width="268.1708984375" x="682.2699154499753" y="481.64255738987595"/>
+          <y:Fill color="#99CCFF" transparent="false"/>
+          <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="14" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="20.447265625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.12890625" x="88.02099609375" xml:space="preserve" y="8.954456594625697">Procesador<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:Shape type="roundrectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n30">
+      <data key="d4" xml:space="preserve"><![CDATA[hardware/timeLineProcesadores.svg]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="699.0858553291314" y="529.942067718722"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="134.7666015625" x="49.471657777093924" xml:space="preserve" y="0.8577769071256967">Timeline de procesadores<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -373,11 +417,11 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n31">
       <data key="d4" xml:space="preserve"><![CDATA[hardware/procesadores-serie-i.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="356.49773654865305"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="699.0858553291314" y="549.9987362041273"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="107.095703125" x="63.307106995843924" xml:space="preserve" y="0.8577769071256967">Procesadores serie-i<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
@@ -385,14 +429,14 @@ evaluación<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><
         </y:ShapeNode>
       </data>
     </node>
-    <node id="n29">
-      <data key="d4" xml:space="preserve"><![CDATA[hardware/interfaces-disco-duro.html]]></data>
+    <node id="n32">
+      <data key="d4" xml:space="preserve"><![CDATA[hardware/ejecucion-instruccion.html]]></data>
       <data key="d6">
         <y:ShapeNode>
-          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="684.0858553291314" y="316.03353213987276"/>
+          <y:Geometry height="17.356178814251408" width="233.70991711668796" x="699.0858553291314" y="570.0554046895327"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle hasColor="false" type="dashed" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.7734375" x="60.968239808343924" xml:space="preserve" y="0.8577769071256967">Interfaces disco duro<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="DejaVu Serif" fontSize="10" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="15.640625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="140.2158203125" x="46.747048402093924" xml:space="preserve" y="0.8577769071256967">Ejecución de instrucciones<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
           <y:Shape type="roundrectangle"/>
         </y:ShapeNode>
       </data>

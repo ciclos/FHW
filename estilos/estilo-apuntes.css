@@ -50,3 +50,9 @@ article.practica{
     padding: 1em;
   
 }
+
+article.preguntas{
+    background: rgb(154, 255, 145); 
+    border-radius: 0.5em;
+    padding: 1em;
+}

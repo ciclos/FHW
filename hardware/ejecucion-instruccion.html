@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Apuntes HW</title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Actividades">
+    <meta name="description" content="Actividades">
+    <link href="../estilos/estilo-apuntes.css" rel="stylesheet" type="text/css" />
+    <link href="../estilos/estilo-comun.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header class="titulo">
+        <h1> Ejecucion de instrucciones del procesador </h1>
+    </header>
+    <section class="apuntes">
+        <article>
+            <p>
+                <h2>Ejecución de programas</h2>
+                Todos los programas que usamos en una computadora residen, de forma "inerte", en el almacenamiento
+                secundario ( tipicamente un disco duro), hasta que
+                pasa al memoria principal ( la RAM ) para que pueda ser ejecutada por el procesador. Cuando un programa
+                pasa a ejecución, se toman las lineas de codigo
+                que lo componen y pasa a la memoria principal. Un programa que se está ejecutando se denomina proceso.
+                Un procesador solo puede atender un proceso al mismo tiempo,
+                pero para dar la impresión de concurrecia, el procesador se turna entre diferentes procesos cargados en
+                memoria principal, alternando de forma tan rapida
+                que esta ejecución lineal parece concurrente.
+                <img src="imagenes/procesos.svg" alt="">
+            </p>
+            <p>
+                <h2>Ejecución de un instrucción</h2>
+                Los programas se dividen en instrucciones y estas a su vez son ejecutadas por el procesador siguiendo
+                las siguientes fases:
+                <ul>
+                    <li>Se lee una instrucción</li>
+                    <li>Se decodifica la instrucción</li>
+                    <li>Se encuentra cualquier dato asociado que sea necesario para procesar la instrucción</li>
+                    <li>Se procesa la instrucción</li>
+                    <li>Se escriben los resultados</li>
+                </ul>
+                Esta serie de pasos, simple en apariencia, se complican debido a la jerarquía de memoria, en la que se
+                incluye la memoria caché, la memoria principal y el almacenamiento no volátil como pueden ser los discos
+                duros, (donde se almacenan las instrucciones y los datos del programa), que son más lentos que el
+                procesador en sí mismo. Con mucha frecuencia, el paso (2) origina un retardo muy largo (en términos de
+                ciclos de CPU) mientras los datos llegan en el bus del computador.
+            </p>
+            <p> Estas intrucciones constitutyen el denominado <b>lenguaje maquina</b> .
+            </p>
+            <p> Durante
+                muchos años, una de las metas principales del diseño microinformático ha sido la de ejecutar el mayor
+                número posible de instrucciones en paralelo.
+
+            </p>
+            <p>
+                <h2>Conjunto de instrucciones</h2>
+                Un conjunto de instrucciones, repertorio de instrucciones, juego de instrucciones o ISA (del inglés
+                instruction set architecture, «arquitectura del conjunto de instrucciones») es una especificación que
+                detalla las instrucciones que una unidad central de procesamiento puede entender y ejecutar.
+            </p>
+            <p>
+                Cualquier conjunto de instrucciones se puede implementar de varias maneras. Todas las maneras de
+                implementar un conjunto de instrucciones dan el mismo modelo programado, y todas pueden hacer funcionar
+                los mismos ejecutables binarios. Procesadores con diferentes diseños internos pueden compartir un
+                conjunto de instrucciones; por ejemplo,
+                el Intel Pentium y AMD Athlon implementan versiones casi idénticas del conjunto de instrucciones x86,
+                aunque tienen diseños diferentes.
+            </p>
+            <p>
+                <h2>x86 y x86-64</h2>
+                La familia x86 reagrupa los microprocesadores compatibles con el juego de instrucciones Intel 8086. Por
+                tanto, x86 representa a ese conjunto de instrucciones, siendo también una denominación genérica dada a
+                los correspondientes microprocesadores.
+            </p>
+            <p>
+
+                x86-64 (también conocido como x64, x86_64 y AMD64) es la versión de 64 bits del conjunto de
+                instrucciones x86. Soporta una cantidad mucho mayor de memoria virtual y memoria física de lo que le es
+                posible a sus predecesores, permitiendo a los programas almacenar grandes cantidades de datos en la
+                memoria, pudiendo direccionar hasta 16 exabytes de memoria.
+            </p>
+
+            <p>
+                <h2>Memoria virtual</h2>
+                En informática, la memoria virtual es una técnica de gestión de la memoria que se encarga de que el
+                sistema operativo disponga, tanto para el software de usuario como para sí mismo, de mayor cantidad de
+                memoria que la disponible físicamente.
+            </p>
+            <p>
+                Muchas aplicaciones requieren acceso a más información (código y datos) que la que se puede mantener en
+                memoria física. Esto es así sobre todo cuando el sistema operativo permite múltiples procesos y
+                aplicaciones ejecutándose simultáneamente. Una solución al problema de necesitar mayor cantidad de
+                memoria de la que se posee consiste en que las aplicaciones mantengan parte de su información en disco,
+                moviéndola a la memoria principal cuando sea necesario. Cuando se usa memoria virtual, una parte del
+                hardware dentro de la computadora traduce las direcciones de memoria generadas por el software
+                (direcciones virtuales) en la dirección real de memoria (la dirección de memoria física).
+                <img src="imagenes/memoriaVirtual.png" alt="">
+            </p>
+            <p>
+                La cantidad de memoria máxima que se puede tener depende de las características del
+                procesador. Por ejemplo, en un sistema de 32 bits, el máximo es 2 elevado a 32, lo que da 4096 Megabytes (4
+                Gigabytes).
+            </p>
+            <p>
+                <h2>PAE</h2>
+                En informática, extensión de dirección física (en inglés, Physical Address Extension o PAE) se refiere a
+                una característica de los procesadores x86 que permite a los sistemas de 32-bit utilizar hasta 64
+                gigabytes (64 GB) de memoria física, suponiendo que el sistema operativo proporcione el adecuado
+                soporte. PAE está disponible en las CPUs Intel Pentium Pro y superiores. El flag CPUID PAE se utiliza
+                para
+                identificar a las CPUs con esta habilidad.
+            </p>
+
+
+        </article>
+        <article class="preguntas">
+            <ol>
+                <li>Cuando un programa se está ejecuntando, ¿donde se encuentran sus instrucciones?
+                </li>
+                <li>¿Cuantos procesos puede atender realmente un procesador de forma concurrente?</li>
+                <li>¿Cuales son las fases de ejecución de una instrucción?</li>
+                <li>¿Que es un juego de instrucciones?</li>
+                <li>¿Que significa la denominación x86? ¿Y x86-64?</li>
+                <li>¿Para que sirve la memoria virtual?</li>
+                <li>¿Que es PAE?</li>
+            </ol>
+
+        </article>
+    </section>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <img class="modal-content" id="img01">
+
+    </div>
+
+    <script type="text/javascript" src="../js/funciones.js">
+    </script>
+</body>
+
+</html>
