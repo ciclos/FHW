@@ -22,7 +22,8 @@
             Para ser un poco mas precisos en este apartado vamos a concretar para los procesadores de la serie i.
             <p>
                 <h2>Numero de nucleos</h2>
-                Un nucelo no es sino un procesador. Cuando se habla de un procesador de varios nucleos, realmente estamos hablando
+                Un nucelo no es sino un procesador. Cuando se habla de un procesador de varios nucleos, realmente
+                estamos hablando
                 de varios procesadores empaquetados juntos. <br>
                 El número de núcleos lleva desde hace una década siendo de dos o más en casi todos los procesadores
                 debido a que
@@ -72,9 +73,7 @@
             <p>
                 <h2>Tarjeta gráfica integrada</h2>
                 Prácticamente todos los procesadores de Intel incluyen una tarjeta gráfica en su interior, lo que hace
-                que sus chips sean ideales para portátiles, al no requerir una tarjeta gráfica dedicada para funcionar,
-                así como en un ordenador de sobremesa podemos estar un tiempo sin tarjeta gráfica dedicada por avería o
-                porque la hayamos vendido a la espera de comprar una nueva.
+                que sus chips sean ideales para portátiles, al no requerir una tarjeta gráfica dedicada para funcionar.
 
                 En las últimas gamas, Intel ha homogeneizado las tarjetas gráficas que incluyen sus procesadores, y
                 encontramos la HD 630 en todos los procesadores i3, i5 e i7 de ordenador y algunos de portátiles,
@@ -116,8 +115,7 @@
                     <li> <b>AES</b>
 
                         Los procesadores con AES poseen una serie de instrucciones especificas para acelerar la
-                        encriptación y desencriptación con <a
-                            href="https://es.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a>
+                        encriptación y desencriptación con <a href="https://es.wikipedia.org/wiki/Advanced_Encryption_Standard">AES</a>
                     </li>
                     <li> <b>MMX</b>
                         La tecnología MMX fue diseñada para mejorar de forma sustancial el rendimiento de las
@@ -129,17 +127,36 @@
             </p>
 
         </article>
+        <article>
+            <h2>Información sobre el procesador</h2>
+            El programa mas común para obtener información relevante sobre el hardware del ordenador y en concreto sobre el procesador es 
+            <a href="https://www.cpuid.com/softwares/cpu-z.html">cpu-z</a> ( y su homologo para linux <a href="https://github.com/X0rg/CPU-X/releases/tag/v3.2.4">cpu-x</a> ).
+            En la siguiente imagen podemos ver la salida de cpu-x con información sobre un procesador.
+            <img src="imagenes/cpu-x.png" alt="">
+            Fijate en los grupos de instrucciones: MMX y AES, en la arquitectura x86-64 e incluso como se reseá el VT-x
+        </article>
         <article class="preguntas">
             <ul>
                 <li>¿Que significa que un procesador tiene varios nucleos?</li>
                 <li>¿Cual es el objetivo de la cache?</li>
                 <li>¿Que significa Hyperthreading?</li>
-                <li></li>
+                <li>¿Para que sirve el Turboboost?</li>
+                <li>¿Para que sirve el bit NX?</li>
+                <li>¿Que ventaja tiene un procesador con AES?</li>
+                <li>¿Para que fué diseñada la tecnología MMX?</li>
             </ul>
         </article>
     </section>
 
+   <!-- The Modal -->
+   <div id="myModal" class="modal">
 
+    <img class="modal-content" id="img01">
+
+</div>
+
+<script type="text/javascript" src="../js/funciones.js">
+</script>
 </body>
 
 </html>
