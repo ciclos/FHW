@@ -389,7 +389,7 @@
     <g id="y.node.33">
       <a xlink:href="100-Programas.html">
         <g fill="rgb(255,102,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="rgb(255,102,0)">
-          <rect x="704.9615" width="255.1709" height="134.5876" y="433.7887" stroke="none"/>
+          <rect x="704.9615" width="255.1709" height="119.5876" y="433.7887" stroke="none"/>
         </g>
         <g/>
       </a>
@@ -450,6 +450,50 @@
         <g>
           <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,12,-73)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
             <text x="782.6276" xml:space="preserve" y="534.5421" stroke="none">Montaje de la placa</text>
+          </g>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.39">
+      <a xlink:href="100-Programas.html">
+        <g fill="rgb(255,102,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="rgb(255,102,0)">
+          <rect x="385.848" width="255.1709" height="93.5876" y="483.7735" stroke="none"/>
+        </g>
+        <g/>
+      </a>
+    </g>
+    <g id="y.node.40">
+      <a xlink:href="100-Programas.html">
+        <g fill="rgb(255,102,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="rgb(255,102,0)">
+          <rect x="379.7626" y="458.4516" width="268.1709" rx="4" ry="4" height="38.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="14px" stroke-linecap="butt" transform="matrix(1,0,0,1,12,-73)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+            <text x="478.6874" xml:space="preserve" y="482.5516" stroke="none">Memoria</text>
+          </g>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.41">
+      <a xlink:href="memoria/memoria.html">
+        <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="white">
+          <rect x="396.5785" y="506.7511" width="233.7099" rx="4" ry="4" height="17.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,12,-73)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+            <text x="476.8197" xml:space="preserve" y="518.8911" stroke="none">Para que sirve</text>
+          </g>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.42">
+      <a xlink:href="memoria/tipos-memoria.html">
+        <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="white">
+          <rect x="396.5785" y="528.6297" width="233.7099" rx="4" ry="4" height="17.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,12,-73)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+            <text x="482.0273" xml:space="preserve" y="540.7697" stroke="none">clasificacion</text>
           </g>
         </g>
       </a>

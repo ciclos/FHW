@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Apuntes HW</title>
+  <meta charset="UTF-8">
+  <meta name="title" content="Actividades">
+  <meta name="description" content="Actividades">
+  <link href="../estilos/estilo-apuntes.css" rel="stylesheet" type="text/css" />
+  <link href="../estilos/estilo-comun.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="titulo">
+    <h1>Memoria principal</h1>
+  </header>
+  <section class="apuntes">
+
+    <article>
+      <h2>Para que sirve</h2>
+      <p>
+
+        En la memoria RAM se almacenan todos los datos e instrucciones de los programas que se están ejecutando, estas
+        son enviadas desde las unidades de almacenamiento antes de su ejecución. <br>
+        Si la memoria RAM no existiera las instrucciones deberían de ser tomadas directamente de los discos duros y
+        estos son mucho más lentos que esta memoria de acceso aleatorio, por lo que es un componente crítico en el
+        rendimiento de un ordenador. <br>
+        Se llama memoria de acceso aleatorio porque se puede leer y escribir en cualquiera de sus posiciones de memoria
+        sin necesidad de respetar un orden secuencial para su acceso.
+      </p>
+      <h2>Funcionamiento</h2>
+      <p>
+
+        Existen tres tipos de señales que el controlador de memoria RAM debe gestionar, señales de datos, señales de
+        direccionamiento y señales de control.
+        <ul>
+          <li>En el bus de direcciones se indica la dirección de la celda sobre la que se va a trabajar.</li>
+          <li>Por el bus de datos discurren los datos que se van a leer o escribir</li>
+          <li>El bus de control indica que tipo de operación se está realizando.</li>
+        </ul>
+      </p>
+      <h2>Caracteristicas de las memorias</h2>
+      <p>
+        Las memorias se caracterizan por las siguientes propiedades:
+        <ul>
+          <li><b>Capacidad</b>. Cuanta información pueden almacenar</li>
+          <li><b>Latencia</b>. Tiempo que transcurre entre que se solicita un dato y el dato se encuentra disponible.
+          </li>
+          <li><b>Frecuencia</b>. Frecuencia en Hercios (Hz) mide el número de veces que se repite un ciclo cada segundo,
+            por lo que cuanto mayor sea la frecuencia, menos tiempo se tardará en realizar un ciclo.</li>
+          <li><b>Voltaje.</b> Tensión que necesita para funcionar correctamente.</li>
+          <li> <b>Ancho de banda</b>
+            . Cantidad de información que transmite por segundo</li>
+        </ul>
+        La relación entre la latencia y la frecuencia de una memoria es lo que va a determinar que tan rapida es la
+        misma. Por ejemplo, una memoria de 1000MHz con una latencia de 5 ciclos, será
+        mas lenta que una de 800MHz con una latencia de 2 ciclos, ya que 1000/5=200 es menor que 800/2=400. <br>
+        Hay varios tipos de la latencia, pero lo que se suele indicar es la CAS ( CL ), como se ve en la siguiente
+        imagen:
+        <img src="imagenes/latencia.png" alt="">
+        En la siguiente tabla podemos observar el valor de la latencia real en función del tiempo de ciclo de reloj y la
+        latencia CAS
+        <img src="imagenes/tabla-latencia.png" alt="">
+      </p>
+
+      <h2>Componentes</h2>
+      <p>
+
+        <img src="imagenes/componentesMemoria.jpg" alt="">
+        <ul>
+          <li><b>Placa</b><br>
+            Es la estructura que soporta los demás componentes y las pistas eléctricas que comunican cada una de las
+            partes de estas.
+
+            Cada una de estas placas forman un módulo de memoria RAM.</li>
+          <li><b>Bancos de memoria</b><br>Son los componentes físicos encargados de almacenar los registros. Estos
+            bancos de memoria lo forman chips de circuitos integrados que están compuestos en su interior por
+            transistores y capacitores que forman celdas de almacenamiento. Estos elementos permiten almacenar bits de
+            información dentro de ellos.
+
+            Para que la información permanezca dentro de los transistores será necesaria una alimentación eléctrica
+            periódica en ellos. Es por esto que cuando apagamos nuestro ordenador esta memoria queda completamente
+            vacía.
+          </li>
+          <li><b>Chip SPD</b><br>El chip SPD (Serial Presence Detect) es el encargado de almacenar datos relativos al
+            módulo de memoria RAM. Estos datos son el tamaño de la memoria, el tiempo de acceso, velocidad y el tipo de
+            memoria. De esta forma el ordenador conocerá que memoria RAM tiene instalada en su interior al chequear esta
+            durante el encendido.
+          </li>
+          <li><b>Bus de conexión</b><br>
+            Este bus compuesto por contactos eléctricos y es el encargado de permitir la comunicación entre el módulo de
+            memoria y la placa base. Gracias a este elemento dispondremos de módulos de memoria separados de la placa
+            base pudiendo con ello ampliar la capacidad de memoria mediante modulo nuevos
+          </li>
+        </ul>
+      </p>
+      <h2>Dual Channel</h2>
+      <p>
+        La tecnología de doble canal permite un incremento de rendimiento del equipo gracias a que será posible el
+        acceso simultáneo a dos módulos distintos de memoria. Cuando está activa la configuración de dual channel será
+        posible acceder a bloques de una extensión de 128 bits en lugar de los 64 típicos
+        <img src="imagenes/dualChannel.jpg" alt="">
+      </p>
+      <p>
+        Para conseguir implementar esta tecnología, será necesario un controlador de memoria adicional situado en el
+        chipset del puente norte de la placa base. Para que un doble canal sea efectivo, los módulos de memoria deben
+        ser del mismo tipo, tener la misma capacidad y velocidad. Y deberá estar instalados en los slots indicados en la
+        placa base (normalmente son los pares 1-3 y 2-4)
+
+        
+      </p>
+    </article>
+
+  </section>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <img class="modal-content" id="img01">
+
+  </div>
+
+  <script type="text/javascript" src="../js/funciones.js">
+  </script>
+</body>
+
+
+</html>
