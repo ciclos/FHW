@@ -261,3 +261,9 @@ div.hamburger {
     text-decoration: none;
     color: white;
 }
+
+.preguntas{
+    border-radius: 1em;
+    background-color: rgb(147, 185, 147);
+    border-width: 0ch;
+}

@@ -333,7 +333,7 @@
     <g id="y.node.28">
       <a xlink:href="100-Programas.html">
         <g fill="rgb(153,204,255)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="rgb(153,204,255)">
-          <rect x="704.9615" width="255.1709" height="105.4675" y="272.9993" stroke="none"/>
+          <rect x="704.9615" width="255.1709" height="119.5876" y="272.9993" stroke="none"/>
         </g>
         <g/>
       </a>
@@ -494,6 +494,30 @@
         <g>
           <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,12,-73)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
             <text x="482.0273" xml:space="preserve" y="540.7697" stroke="none">clasificacion</text>
+          </g>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.43">
+      <a xlink:href="hardware/arquitectura.html">
+        <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="white">
+          <rect x="715.692" y="356.1469" width="233.7099" rx="4" ry="4" height="17.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,12,-73)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+            <text x="756.7853" xml:space="preserve" y="368.2869" stroke="none">Arquitectura de procesadores</text>
+          </g>
+        </g>
+      </a>
+    </g>
+    <g id="y.node.44">
+      <a xlink:href="monitorizacion/monitorizacionLinux.html">
+        <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,12,-73)" stroke="white">
+          <rect x="69.9445" y="627.7963" width="233.7099" rx="4" ry="4" height="17.3562" stroke="none"/>
+        </g>
+        <g>
+          <g font-size="10px" stroke-linecap="butt" transform="matrix(1,0,0,1,12,-73)" text-rendering="geometricPrecision" font-family="'DejaVu Serif'" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+            <text x="132.8272" xml:space="preserve" y="639.9363" stroke="none">Monitorizacion Linux</text>
           </g>
         </g>
       </a>
